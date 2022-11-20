@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5804093758917417829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5804093758917417831}
+  - component: {fileID: 5804093758917417828}
+  - component: {fileID: 5804093758917417830}
+  m_Layer: 0
+  m_Name: LevelController
+  m_TagString: LevelController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5804093758917417831
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5804093758917417829}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.875, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &5804093758917417828
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5804093758917417829}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.44164002, z: 1}
+  m_Center: {x: 0, y: -0.27918, z: 0}
+--- !u!114 &5804093758917417830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5804093758917417829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cde1fb9e6b9dfb419b5fb75349cda75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerData: {fileID: 11400000, guid: af7667d64b3ab90469572f8c5938ef2a, type: 2}
+  playerDatas: {fileID: 11400000, guid: 3d4470ceb1b7faf499faf8ae4b29032f, type: 2}
+  isGameActive: 0
+  levelFinish: 0
+  levelText: {fileID: 0}
+  moneyBag: {fileID: 0}
+  finishMoneyAnimator: {fileID: 0}
+  speedLevelText: {fileID: 0}
+  speedUpgradeFeeText: {fileID: 0}
+  staminaLevelText: {fileID: 0}
+  staminaUpgradeFeeText: {fileID: 0}
+  moneyLevelText: {fileID: 0}
+  moneyUpgradeFeeText: {fileID: 0}
+  totalMoneyText: {fileID: 0}
+  startMenu: {fileID: 0}
+  gameUI: {fileID: 0}
+  levelVictoryMenu: {fileID: 0}
+  circle: {fileID: 0}
