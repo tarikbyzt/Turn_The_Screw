@@ -1,4 +1,7 @@
 # Turn_The_Screw
+In this game, which is made using hold/release mechanics, the aim is to reach the prize by turning the screw.
+
+<img src="https://github.com/tarikbyzt/Turn_The_Screw/blob/main/Turn-The-Screw-main/TurnTheScrew/turnthescrew.jpg" width="200">
 <img src="https://github.com/tarikbyzt/Turn_The_Screw/blob/main/Turn-The-Screw-main/TurnTheScrew/turnthescrew.gif" width="200">
 
 
